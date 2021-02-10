@@ -7,7 +7,7 @@
 // $password = "";
 
 // deployment database
-$hostname = "pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+$hostname = "pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbname = "kew9wb99q0nzixfq";
 $username = "i95adqeezszaz44e";
 $password = "kyvw9lka85tetonj";
