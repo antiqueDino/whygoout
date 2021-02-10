@@ -20,9 +20,9 @@ SET time_zone = "+00:00";
 -- Database: `2019_projet7_participations`
 --
 -- À mettre en commentaire pour installation sur pw
-
 CREATE DATABASE IF NOT EXISTS `2019_projet7_participations` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `2019_projet7_participations`;
+
 -- --------------------------------------------------------
 
 --
