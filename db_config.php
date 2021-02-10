@@ -1,9 +1,16 @@
 <?php
 
-$hostname = "localhost";
-$dbname = "2019_projet7_participations";
-$username = "root";
-$password = "";
+// production database
+// $hostname = "localhost";
+// $dbname = "2019_projet7_participations";
+// $username = "root";
+// $password = "";
+
+// deployment database
+$hostname = "pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+$dbname = "kew9wb99q0nzixfq";
+$username = "i95adqeezszaz44e";
+$password = "kyvw9lka85tetonj";
 
 $dsn = "mysql:host=$hostname;dbname=$dbname;charset=utf8";
 //$dsn = "sqlite:" . __DIR__ . "/../db/users.sqlite";
