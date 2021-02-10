@@ -9,12 +9,12 @@ $authTableData = [
 ];
 
 $pathFor = [
-    "login"  => "/whygoout/login.php",
-    "logout" => "/whygoout/logout.php",
-    "adduser" => "/whygoout/adduser.php",
-    "eventForm" => "/whygoout/er_form.php",
-    "acceuil" => "/whygoout/acceuil.php",
-    "root"   => "/whygoout/acceuil.php",
+    "login"  => "/login.php",
+    "logout" => "/logout.php",
+    "adduser" => "/adduser.php",
+    "eventForm" => "/er_form.php",
+    "acceuil" => "/acceuil.php",
+    "root"   => "/acceuil.php",
 ];
 
 const SKEY = '_Redirect';
