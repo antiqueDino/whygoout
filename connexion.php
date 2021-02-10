@@ -1,18 +1,19 @@
 <?php
 $title="Connexion";
+include("header.php");
 
 ?>
-<!DOCTYPE html>
-<html lang="en" class="h-full">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title??"" ?></title>
-    <link rel="stylesheet" href="public\build\tailwind.css">
-</head>
-
-<body class="bg-green-800 flex content-center justify-center h-full items-center" style = "background-color: #777580; background-image: url(circuit-board.svg);">
-
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en" class="h-full"> -->
+<!-- <head> -->
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <title></title> -->
+    <!-- <link rel="stylesheet" href="public\build\tailwind.css"> -->
+<!-- </head> -->
+<!--  -->
+<!-- <body class="bg-green-800 flex content-center justify-center h-full items-center" style = "background-color: #777580; background-image: url(circuit-board.svg);"> -->
+<!--  -->
     <div class="w-full max-w-xs container mx-auto">
         <?php
                     if (!empty($error)) {
